@@ -1,8 +1,8 @@
-from functools import lru_cache
+from functools import cache 
 
 class Solution:
     def countVowelStrings(self, n: int) -> int:
-        @lru_cache
+        @cache
         def dfs(i, j):
             if i >= n:
                 return 1
