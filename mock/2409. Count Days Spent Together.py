@@ -7,7 +7,7 @@ class Solution:
 
         alice = [self.convertDays(arriveAlice), self.convertDays(leaveAlice)]
         bob = [self.convertDays(arriveBob), self.convertDays(leaveBob)]
-
+        
         left = max(alice[0], bob[0])
         right = min(alice[1], bob[1])
         
